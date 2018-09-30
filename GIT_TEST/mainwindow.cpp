@@ -29,3 +29,8 @@ void MainWindow::on_btnChange_clicked()
     }
 
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    ui->lblThird->setText("Changed Done");
+}
