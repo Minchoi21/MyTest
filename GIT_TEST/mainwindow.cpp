@@ -32,5 +32,15 @@ void MainWindow::on_btnChange_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->lblThird->setText("Changed Done");
+    static bool state = false;
+    if(state == false) {
+        ui->lblThird->setText("Changed Done");
+        state = true;
+    }
+    else {
+        ui->lblThird->setText("Wykres rysuj.");
+        state = false;
+    }
+
+
 }
