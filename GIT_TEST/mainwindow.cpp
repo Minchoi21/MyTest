@@ -23,7 +23,7 @@ void MainWindow::on_btnChange_clicked()
         state = true;
     }
     else {
-        ui->lblShow->setText("Return Text!");
+        ui->lblShow->setText("Return Ten No Black Ship!");
         state = false;
     }
 
